@@ -67,3 +67,10 @@ footer a {
 .spacer{
     padding: 2%;
 }
+
+.col {
+    border: 2px solid red;
+}
+.row {
+    border: 2px solid green;
+}
