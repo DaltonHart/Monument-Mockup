@@ -1,17 +1,62 @@
 *{
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body{
-    margin: 2% 10%;
+    font-size: 1em;
 }
 
 section img {
     width: 100%;
 }
 
-h1, h2, h3, h4 {
-    text-align: left;
+section, footer{
+    margin: 2% 10%;
+}
 
+h2, h3, h4 {
+    text-align: left;
+}
+h2{
+    font-size: 1.5em;
+}
+h4{
+  font-size: 1em;
+}
+header, footer{
+    text-align: center;
+}
+header nav a {
+    font-size: 1.5em;
+    margin: 1em;
+}
+header nav{
+    margin: 1%;
+}
+footer {
+    background-color: #19F7F3;
+}
+.logo {
+    background-color: green;
+    background: url(/images/blog_header_bg.jpg);
+    margin: 2% 8%; 
+}
+
+img  {
+    padding: 1em 0em;
+}
+
+.about-us img {
+    width: 40%;
+}
+.copyrite{
+    border-top: 1px solid black;
+}
+footer a {
+    font-size: 1.5em;
+    margin: 1em;
+}
+.spacer{
+    padding: 2%;
 }
