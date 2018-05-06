@@ -62,14 +62,6 @@ header, footer{
     text-align: center;
 }
 
-
-footer {
-    background-color: #19F7F3;
-    font-family: 'Lato', sans-serif;
-    margin:0;
-}
-
-
 img  {
     padding: 1em 0em;
 }
@@ -83,21 +75,13 @@ img  {
 footer a {
     font-size: 1.5em;
     margin: 1em;
+    color: #47545D;
 }
 .spacer{
     padding: 2%;
 }
-
-.col {
-    border: 2px solid red;
+.col, .col-8 {
     margin: 0;
-}
-.col-8 {
-    border: 2px solid red;
-    margin: 0;
-}
-.row {
-    border: 2px solid green;
 }
 article p, .about p, .recent-issues a {
     font-family: 'Lato', sans-serif;
@@ -106,4 +90,33 @@ article p, .about p, .recent-issues a {
 .recent-issues a{
     margin: 0;
     padding: 0;
+}
+
+footer {
+    background-color: #D4F2F5;
+    font-family: 'Lato', sans-serif;
+    color: #47545D;
+    margin:0;
+}
+
+.button1 , .name , .email, .comment{
+    color: #47545D;
+    border: solid 1px #47545D;
+    width: 100%;
+    margin-top: 1em;
+    
+}
+.button1 {
+    text-align: center;
+}
+.button1:hover{
+    background: #47545D;
+    color: white;
+}
+.contact-form{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
 }
